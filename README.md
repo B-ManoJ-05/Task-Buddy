@@ -26,7 +26,7 @@ TaskBuddy is a lightweight task-management web app built with **React.js**, desi
 
 ```bash
 # Clone the repo
-git clone https://github.com/B-ManoJ-05/Task-Buddy.git
+https://github.com/B-ManoJ-05/Task-Buddy
 
 # Go to project folder
 cd <Task-Buddy>
