@@ -1,16 +1,38 @@
-# React + Vite
+# ✅ TaskBuddy — Lightweight Task Management Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskBuddy is a lightweight task-management web app built with **React.js**, designed to help you organize your daily tasks with a clean and intuitive UI. Add, edit, prioritize, and track completion in a distraction-free interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Add / Edit / Delete tasks
+- Mark tasks as complete
+- Prioritize tasks (e.g. High / Medium / Low)
+- Clean and distraction-free UI
+- Persistent data (local storage / backend-ready)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js, Hooks, Context API (or Redux if used)
+- **Styling:** Tailwind CSS / CSS Modules (mention what you used)
+- **State Storage:** LocalStorage or API (mention current implementation)
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/B-ManoJ-05/Task-Buddy.git
+
+# Go to project folder
+cd <Task-Buddy>
+
+# Install dependencies
+ npm create vite@latest Task-Buddy
+
+# Run in development mode
+npm run dev
